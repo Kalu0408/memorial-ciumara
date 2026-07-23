@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
 <meta charset="UTF-8">
-<title>Memorial Lúzia Ciumara Pinto Pistél</title>
+<title>Memorial Lúzia</title>
 </head>
 
 <body>
