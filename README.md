@@ -19,7 +19,7 @@ body {
 .container {
     max-width: 900px;
     margin: auto;
-    padding: 30px;
+    padding: 25px;
 }
 
 h1 {
@@ -27,9 +27,13 @@ h1 {
     color: #5a4632;
 }
 
+h2 {
+    color: #5a4632;
+}
+
 .capa {
-    width: 220px;
-    height: 220px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #c9a227;
@@ -37,7 +41,8 @@ h1 {
 
 .datas {
     font-size: 20px;
-    margin: 20px;
+    margin: 25px;
+    line-height: 1.6;
 }
 
 .caixa {
@@ -48,21 +53,28 @@ h1 {
 }
 
 video {
-    width: 90%;
+    width: 100%;
     max-width: 700px;
     border-radius: 15px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .galeria img {
     width: 180px;
     height: 180px;
     object-fit: cover;
-    margin: 10px;
+    margin: 8px;
     border-radius: 10px;
 }
 
 footer {
     margin-top: 40px;
+    padding-bottom: 30px;
     font-style: italic;
 }
 
@@ -76,26 +88,41 @@ footer {
 
 <h2>🌹 Em Memória de</h2>
 
-<img class="capa" src="img/capa.jpg" alt="Foto de Lúzia">
+<img class="capa" src="capa.jpg" alt="Lúzia Ciumara Pinto Pistél">
 
 <h1>Lúzia Ciumara Pinto Pistél</h1>
 
 <div class="datas">
-14 de Junho de 1993
+
+Nascimento:
 <br>
+14 de Junho de 1993
+
+<br><br>
+
 ✝
+
+<br><br>
+
+Falecimento:
 <br>
 19 de Julho de 2026
+
 </div>
 
 
 <div class="caixa">
 
-<h2>Homenagem</h2>
+<h2>🕊️ Homenagem</h2>
 
 <p>
 Hoje despedimo-nos de uma pessoa muito especial,
 cuja vida deixou marcas de amor, carinho e boas lembranças.
+</p>
+
+<p>
+A sua memória permanecerá viva nos corações de todos
+que tiveram o privilégio de conhecê-la e amá-la.
 </p>
 
 <p>
@@ -108,11 +135,10 @@ e conforte todos os familiares e amigos neste momento de saudade.
 
 <div class="caixa">
 
-<h2>  <video controls>
-<source src="vídeo.mp4" type="video/mp4"></video></h2>
+<h2>🎥 Vídeo de homenagem</h2>
 
 <video controls>
-<source src="video/homenagem.mp4" type="video/mp4">
+<source src="vídeo.mp4" type="video/mp4">
 O navegador não suporta vídeo.
 </video>
 
@@ -124,8 +150,6 @@ O navegador não suporta vídeo.
 <h2>📸 Galeria de Fotos</h2>
 
 <div class="galeria">
-
-< <div class="galeria">
 
 <img src="foto1.jpg">
 <img src="foto2.jpg">
@@ -140,8 +164,6 @@ O navegador não suporta vídeo.
 <img src="foto11.jpg">
 <img src="foto12.jpg">
 
-</div> ">
-
 </div>
 
 </div>
@@ -149,8 +171,9 @@ O navegador não suporta vídeo.
 
 <footer>
 
-🕊️ "Aqueles que amamos nunca partem,
-permanecem vivos em nossas memórias."
+🕊️  
+"Embora a saudade permaneça,
+o amor e as lembranças serão eternos."
 
 </footer>
 
