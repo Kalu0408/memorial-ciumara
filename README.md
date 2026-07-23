@@ -22,12 +22,7 @@ body {
     padding: 25px;
 }
 
-h1 {
-    font-size: 34px;
-    color: #5a4632;
-}
-
-h2 {
+h1, h2 {
     color: #5a4632;
 }
 
@@ -88,7 +83,7 @@ footer {
 
 <h2>🌹 Em Memória de</h2>
 
-<img class="capa" src="capa.jpg" alt="Lúzia Ciumara Pinto Pistél">
+<img class="capa" src="imagem/capa.jpg" alt="Lúzia Ciumara Pinto Pistél">
 
 <h1>Lúzia Ciumara Pinto Pistél</h1>
 
@@ -121,13 +116,13 @@ cuja vida deixou marcas de amor, carinho e boas lembranças.
 </p>
 
 <p>
-A sua memória permanecerá viva nos corações de todos
-que tiveram o privilégio de conhecê-la e amá-la.
+A sua memória permanecerá viva nos corações
+de todos que tiveram o privilégio de conhecê-la.
 </p>
 
 <p>
 Que Deus conceda descanso eterno à sua alma
-e conforte todos os familiares e amigos neste momento de saudade.
+e conforte todos os familiares neste momento de saudade.
 </p>
 
 </div>
@@ -138,7 +133,7 @@ e conforte todos os familiares e amigos neste momento de saudade.
 <h2>🎥 Vídeo de homenagem</h2>
 
 <video controls>
-<source src="vídeo.mp4" type="video/mp4">
+<source src="Vídeo.MP4" type="video/mp4">
 O navegador não suporta vídeo.
 </video>
 
@@ -151,18 +146,17 @@ O navegador não suporta vídeo.
 
 <div class="galeria">
 
-<img src="foto1.jpg">
-<img src="foto2.jpg">
-<img src="foto3.jpg">
-<img src="foto4.jpg">
-<img src="foto5.jpg">
-<img src="foto6.jpg">
-<img src="foto7.jpg">
-<img src="foto8.jpg">
-<img src="foto9.jpg">
-<img src="foto10.jpg">
-<img src="foto11.jpg">
-<img src="foto12.jpg">
+<img src="foto2.jpg.JPG">
+<img src="foto3.JPG">
+<img src="foto4.jpg.JPG">
+<img src="foto5.jpg.JPG">
+<img src="foto6.JPG">
+<img src="foto7.JPG">
+<img src="foto8.JPG">
+<img src="foto9.JPG">
+<img src="foto10.JPG">
+<img src="foto11.JPG">
+<img src="foto12.JPG">
 
 </div>
 
@@ -172,11 +166,10 @@ O navegador não suporta vídeo.
 <footer>
 
 🕊️  
-"Embora a saudade permaneça,
-o amor e as lembranças serão eternos."
+"Aqueles que amamos nunca partem,
+permanecem vivos em nossas memórias."
 
 </footer>
-
 
 </div>
 
