@@ -108,7 +108,8 @@ e conforte todos os familiares e amigos neste momento de saudade.
 
 <div class="caixa">
 
-<h2>🎥 Vídeo de homenagem</h2>
+<h2>  <video controls>
+<source src="vídeo.mp4" type="video/mp4"></video></h2>
 
 <video controls>
 <source src="video/homenagem.mp4" type="video/mp4">
